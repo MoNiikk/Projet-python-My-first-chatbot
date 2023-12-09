@@ -26,8 +26,6 @@ def pres_names(files_names):
 
 
 
-
-
 def prenom_pres(list) :
     liste_prenoms = ["Jacques", "Valérie", "François", "Manu", "François", "Nico"]
     for i in range (len(list)) :

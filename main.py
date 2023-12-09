@@ -1,8 +1,8 @@
 import os
 import Fonctions as fct
 
-directory2 = "C:/Users/rafaf/OneDrive/pythonProject2/cleaned"
-directory = "C:/Users/rafaf/OneDrive/pythonProject2/speeches"
+directory2 = "./cleaned"
+directory = "./speeches"
 files_names = fct.list_of_files(directory, ".txt")
 print(files_names)
 
