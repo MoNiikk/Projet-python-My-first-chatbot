@@ -68,7 +68,7 @@ def TF(directory2):
                         if mot in tf :
                             tf[mot] += 1
                         else :
-                            tf[mot] = 0
+                            tf[mot] = 1
         print(tf)
 
 
